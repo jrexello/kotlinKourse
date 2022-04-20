@@ -13,6 +13,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    //For reflection usage
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.6.20")
+    //Arrow Core
+    implementation("io.arrow-kt:arrow-core:1.0.1")
 }
 
 tasks.test {
